@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+.main-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 50vh;
+}
+
+@media(max-width: 600px) {
+    .main-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 70vw;
+}
+}
+
+@media(max-width: 600px) {
+    .main-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 60vh;
+    width: 70vw;
+}
+}
+
+h2 {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.amount {
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.amount input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.dropdown {
+    display: flex;
+    padding: 2rem 0 2rem 0;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;   
+}
+
+.from {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.to {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.select-container-from {
+    display: flex;
+    gap: 1rem;
+    align-items: center;  
+    background-color: lightgrey;
+    border: 0.5px solid black;
+    border-radius: 40%;
+    padding: 0.5rem;
+}
+
+select {
+    background: none;
+    background-color: none;
+    border: none;
+    outline: none;
+}
+
+.select-container-from img {
+    max-width: 2rem;
+}
+
+.select-container-to {
+    display: flex;
+    gap: 1rem;
+    align-items: center;  
+    background-color: lightgrey;
+    border: 0.5px solid black;
+    border-radius: 40%;
+    padding: 0.5rem;
+}
+
+.select-container-to img {
+    max-width: 2rem;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.msg button {
+    font-size: 1rem;
+    background-color: #af4d98;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.msg button:hover {
+    background-color: lightslategrey;  
+}
